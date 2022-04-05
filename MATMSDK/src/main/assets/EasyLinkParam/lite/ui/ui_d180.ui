@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root version="000001" projectName="EasyLink_Lite">
+<description></description>
+	<Screen width="128" height="64" name="128x64">
+		<Page name="Idle.xml">
+			<TextBox name="text1" x="0" y="0" value="Welcome" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="GetCard.xml">
+			<TextBox name="text1" x="0" y="0" value="SWIPE/INSERT/TAP" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="CARD" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="Fallback.xml">
+			<TextBox name="text1" x="0" y="0" value="SWIPE CARD" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="FALLBACK" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="InsertCard.xml">
+			<TextBox name="text1" x="0" y="0" value="PLS INSERT CARD" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="ReswipeCard.xml">
+			<TextBox name="text1" x="0" y="0" value="RESWIPE CARD" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="TryAnotherInter.xml">
+            <TextBox name="text1" x="0" y="0" value="TRY ANOTHER" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+            <TextBox name="text2" x="0" y="24" value="INTERFACE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+        </Page>
+		<Page name="TapCardAgain.xml">
+			<TextBox name="text1" x="0" y="0" value="PLS TAP AGAIN" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="RemoveCard.xml">
+			<TextBox name="text1" x="0" y="0" value="PLS REMOVE CARD" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="ReadCardErr.xml">
+			<TextBox name="text1" x="0" y="0" value="READ CARD ERR" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="OpenPiccErr.xml">
+			<TextBox name="text1" x="0" y="0" value="OPEN PICC ERR" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="TooManyCards.xml">
+			<TextBox name="text1" x="0" y="0" value="TOO MANY CARDS" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="Processing.xml">
+			<TextBox name="text1" x="0" y="0" value="PROCESSING..." fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="PLS NOT REMOVE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="Processing.xml">
+            <TextBox name="text1" x="0" y="0" value="REQUEST ONLINE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+            <TextBox name="text2" x="0" y="24" value="PLS NOT REMOVE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+        </Page>
+		<Page name="SeePhone.xml">
+			<TextBox name="text1" x="0" y="0" value="SEE PHONE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="NeedOnline.xml">
+            <TextBox name="text1" x="0" y="0" value="NEED ONLINE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+            <TextBox name="text2" x="0" y="24" value="PLS NOT REMOVE" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+        </Page>
+        <Page name="TxnApproved.xml">
+            <TextBox name="text1" x="0" y="0" value="TXN APPROVED" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+        </Page>
+        <Page name="TxnDeclined.xml">
+            <TextBox name="text1" x="0" y="0" value="TXN DECLINED" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+        </Page>
+		<Page name="AppSelect.xml">
+			<TextBox name="title" x="0" y="0" value="PLS SELECT:" fontSize="1" textAlign="1" mode="0" keyAccept="1"></TextBox>
+			<MenuList name="MenuList1" x="0" y="8" numRows="5" fontSize="1">
+				<MenuItem name="menuitem1"  x="0" y="8" value="" fontSize="1" textAlign="1"></Menu>
+				<MenuItem name="menuitem2"  x="0" y="16" value="" fontSize="1" textAlign="1"></Menu>
+				<MenuItem name="menuitem3"  x="0" y="8" value="" fontSize="1" textAlign="1"></Menu>
+				<MenuItem name="menuitem4"  x="0" y="16" value="" fontSize="1" textAlign="1"></Menu>
+				<MenuItem name="menuitem5"  x="0" y="8" value="" fontSize="1" textAlign="1"></Menu>
+			</MenuList>
+		</Page>
+		<Page name="AppSelectAgain.xml">
+			<TextBox name="text1" x="0" y="0" value="NOT ACCEPT!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="PLS TRY AGAIN!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="EnterPIN.xml">
+			<TextBox name="text1" x="0" y="0" value="PLS ENTER PIN:" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<InputBox name="input1" x="64" y="24" value="" fontSize="0" textAlign="1" mode="0" type="5" keyAccept="1" minlen="1" maxlen="12"></InputBox>
+		</Page>
+		<Page name="PinError.xml">
+			<TextBox name="text1" x="0" y="0" value="PIN ERROR" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="PLS TRY AGAIN!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="LastEnterPin.xml">
+			<TextBox name="text1" x="0" y="0" value="LAST ENTER PIN" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<InputBox name="input1" x="64" y="24" value="" fontSize="0" textAlign="1" mode="0" type="5" keyAccept="1" minlen="1" maxlen="12"></InputBox>
+		</Page>
+		<Page name="PinVerifyOK.xml">
+			<TextBox name="text1" x="0" y="0" value="PIN VERIFY OK" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="AmountConfirm.xml">
+			<TextBox name="text1" x="0" y="0" value="Total amount:" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="16" value="" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text3" x="0" y="32" value="CORRECT? Y/N" fontSize="1" textAlign="3" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="Timeout.xml">
+			<TextBox name="text1" x="0" y="0" value="TIMEOUT!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="PedErr.xml">
+			<TextBox name="text1" x="0" y="0" value="PIN ERROR!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+			<TextBox name="text2" x="0" y="24" value="RETRY!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+		<Page name="InvalidCard.xml">
+			<TextBox name="text1" x="0" y="0" value="INVALID CARD!" fontSize="1" textAlign="2" mode="0" keyAccept="1"></TextBox>
+		</Page>
+	</Screen>
+</Root>

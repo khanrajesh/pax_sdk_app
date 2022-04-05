@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/date_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:textColor="@color/black"
+
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/remark_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="normal"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/amount_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="normal"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:gravity="center|right"
+                    android:layout_toLeftOf="@+id/crdr_txt"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/crdr_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="normal"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:gravity="center|right"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text=""/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/very_light_grey"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

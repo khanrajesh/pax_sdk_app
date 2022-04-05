@@ -1,0 +1,174 @@
+
+w	java:S116Y"VRename this field "status_icon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜİÑöûÿÿÿÿ8îÄŸâ¸/
+r	java:S116["VRename this field "card_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô½ä–8ïÄŸâ¸/
+p	java:S116["TRename this field "bank_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô½ä–8ğÄŸâ¸/
+p	java:S116["TRename this field "date_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô½ä–8ğÄŸâ¸/
+m	java:S116e"LRename this field "B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÚ­àşÿÿÿÿ8ñÄŸâ¸/
+w	java:S116g"[Rename this field "transaction_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÙÂÁ8ñÄŸâ¸/
+o	java:S116i"NRename this field "MID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òííøşÿÿÿÿ8ñÄŸâ¸/
+o	java:S116i"NRename this field "TID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òííøşÿÿÿÿ8òÄŸâ¸/
+u	java:S116i"TRename this field "CARD_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òííøşÿÿÿÿ8òÄŸâ¸/
+t	java:S116i"SRename this field "Card_NUM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òííøşÿÿÿÿ8óÄŸâ¸/
+z	java:S116i"YRename this field "TRANSACTION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òííøşÿÿÿÿ8óÄŸâ¸/
+}	java:S116k"bRename this field "STORAGE_PERMISSION_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¶¡^8ôÄŸâ¸/
+J
+java:S1659Y"(Declare "sendButton" on a separate line.(ÜİÑöûÿÿÿÿ8ÅŸâ¸/
+F
+java:S1659[")Declare "card_amount" on a separate line.(Ô½ä–8ÅŸâ¸/
+D
+java:S1659["'Declare "bank_name" on a separate line.(Ô½ä–8ÅŸâ¸/
+D
+java:S1659["'Declare "date_time" on a separate line.(Ô½ä–8ÅŸâ¸/
+@
+java:S1659["#Declare "txnID" on a separate line.(Ô½ä–8ÅŸâ¸/
+F
+java:S1659_")Declare "downloadBtn" on a separate line.(Êğˆ8‘ÅŸâ¸/
+C
+java:S1659_"&Declare "closeBtn" on a separate line.(Êğˆ8‘ÅŸâ¸/
+P
+java:S1659`".Declare "mobileTextLayout" on a separate line.(¿ó™‘øÿÿÿÿ8’ÅŸâ¸/
+C
+java:S1659i"!Declare "MID" on a separate line.(Òííøşÿÿÿÿ8’ÅŸâ¸/
+C
+java:S1659i"!Declare "TID" on a separate line.(Òííøşÿÿÿÿ8“ÅŸâ¸/
+I
+java:S1659i"'Declare "CARD_TYPE" on a separate line.(Òííøşÿÿÿÿ8“ÅŸâ¸/
+H
+java:S1659i"&Declare "Card_NUM" on a separate line.(Òííøşÿÿÿÿ8“ÅŸâ¸/
+J
+java:S1659i"(Declare "balanceAmt" on a separate line.(Òííøşÿÿÿÿ8”ÅŸâ¸/
+N
+java:S1659i",Declare "transactionAmt" on a separate line.(Òííøşÿÿÿÿ8”ÅŸâ¸/
+N
+java:S1659i",Declare "TRANSACTION_ID" on a separate line.(Òííøşÿÿÿÿ8•ÅŸâ¸/
+S
+java:S1874a"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº8â§˜â¸/
+t
+java:S3776o"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(Û½Ê€şÿÿÿÿ8¤ÅŸâ¸/
+`
+java:S1854Ÿ"=Remove this useless assignment to local variable "APPR_CODE".(âªû™ıÿÿÿÿ8¦ÅŸâ¸/
+^
+java:S1854œ";Remove this useless assignment to local variable "INVOICE".(äÍäáúÿÿÿÿ8§ÅŸâ¸/
+]
+java:S1854›":Remove this useless assignment to local variable "TXN_ID".(€¯ªÀúÿÿÿÿ8§ÅŸâ¸/
+U
+java:S1854—"7Remove this useless assignment to local variable "aId".(Ì´îÀ8§ÅŸâ¸/
+Z
+java:S1854–"<Remove this useless assignment to local variable "applName".(ä£’»8©ÅŸâ¸/
+K
+java:S1481–"-Remove this unused "applName" local variable.(ä£’»8µÅŸâ¸/
+F
+java:S1481—"(Remove this unused "aId" local variable.(Ì´îÀ8·ÅŸâ¸/
+N
+java:S1481›"+Remove this unused "TXN_ID" local variable.(€¯ªÀúÿÿÿÿ8¹ÅŸâ¸/
+O
+java:S1481œ",Remove this unused "INVOICE" local variable.(äÍäáúÿÿÿÿ8¹ÅŸâ¸/
+Q
+java:S1481Ÿ".Remove this unused "APPR_CODE" local variable.(âªû™ıÿÿÿÿ8ºÅŸâ¸/
+^	java:S125£"<This block of commented-out lines of code should be removed.(½×Ô¡øÿÿÿÿ8»ÅŸâ¸/
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(òÒ¸Š8¿ÅŸâ¸/
+Y	java:S125´"<This block of commented-out lines of code should be removed.(•ªšÔ8ÀÅŸâ¸/
+V	java:S106À"9Replace this use of System.out or System.err by a logger.(§ªöˆ8ÃÅŸâ¸/
+[	java:S106Á"9Replace this use of System.out or System.err by a logger.(ÁÙä—ûÿÿÿÿ8ÄÅŸâ¸/
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(®†Õïûÿÿÿÿ8ÅÅŸâ¸/
+Y
+java:S2696í"6Make the enclosing method "static" or remove this set.(“ğ†Àıÿÿÿÿ8ÊÅŸâ¸/
+Y
+java:S2696Œ"6Make the enclosing method "static" or remove this set.(ŒŠËÎıÿÿÿÿ8ĞÅŸâ¸/
+V	java:S106°"9Replace this use of System.out or System.err by a logger.(â×¸8”ÆŸâ¸/
+p
+java:S1871Á"MThis branch's code block is the same as the block for the branch on line 318.(Íí»©ûÿÿÿÿ8˜ÆŸâ¸/
+Y	java:S125½"<This block of commented-out lines of code should be removed.(ÇÊ±ï8˜ÆŸâ¸/
+T
+java:S2696¿"6Make the enclosing method "static" or remove this set.(¤ªÃ8šÆŸâ¸/
+S
+java:S2696À"6Make the enclosing method "static" or remove this set.(ƒè8šÆŸâ¸/
+T
+java:S2696Â"6Make the enclosing method "static" or remove this set.(¤ªÃ8›ÆŸâ¸/
+S
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(ƒè8œÆŸâ¸/
+Ÿ
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8£ÆŸâ¸/
+¤
+java:S1186ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¤ÆŸâ¸/
+E
+java:S1125ò"'Remove the unnecessary boolean literal.(ÍôØ´8©ÆŸâ¸/
+E
+java:S1125ü"'Remove the unnecessary boolean literal.(ä°ø‰8ÌÆŸâ¸/
+Y	java:S125¡"<This block of commented-out lines of code should be removed.(”Õá8ÙÆŸâ¸/
+Y	java:S125¥"<This block of commented-out lines of code should be removed.(¡Õ±š8ÛÆŸâ¸/
+Y	java:S125­"<This block of commented-out lines of code should be removed.(àû™ñ8ø´˜ã¸/
+]	java:S899Æ";Do something with the "boolean" value returned by "delete".(÷–€ûÿÿÿÿ8ìÆŸâ¸/
+q
+java:S4042Æ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(÷–€ûÿÿÿÿ8íÆŸâ¸/
+Y	java:S125Í"<This block of commented-out lines of code should be removed.(”Õá8íÃ™ã¸/
+h
+java:S1874ê"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8­–ã¸/
+F	java:S108‹")Either remove or fill this block of code.(”ı¾8©ÇŸâ¸/
+N
+java:S1172"+Remove this unused method parameter "type".(óòÑ¤ıÿÿÿÿ8ªÇŸâ¸/
+`
+java:S1854ê"=Remove this useless assignment to local variable "statusMsg".(¿¡¤¦úÿÿÿÿ8ŞÇŸâ¸/
+Y
+java:S1854ë";Remove this useless assignment to local variable "message".(«ºÎä8ßÇŸâ¸/
+Q
+java:S1481ê".Remove this unused "statusMsg" local variable.(¿¡¤¦úÿÿÿÿ8âÇŸâ¸/
+J
+java:S1481ë",Remove this unused "message" local variable.(«ºÎä8âÇŸâ¸/
+T
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(ó‚²‡8èÇŸâ¸/
+N
+java:S1874"2Remove this use of "setMessage"; it is deprecated.(ÙæõÛúÿÿÿÿ
+g
+java:S3252¢"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(ÓÿÁû
+g
+java:S3252¢"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ÓÿÁû
+W
+java:S1068k";Remove this unused "STORAGE_PERMISSION_CODE" private field.(œ¶¡^8„ÈŸâ¸/
+T
+java:S1144û"6Remove this unused private "showBrandSetAlert" method.(ß­¶²8…ÈŸâ¸/
+n
+java:S1192Å"PDefine a constant instead of duplicating this literal "Cash Withdrawal" 4 times.(ÑÎêÀ8‡ÈŸâ¸/
+s
+java:S1192É"PDefine a constant instead of duplicating this literal "Balance Enquiry" 4 times.(ªû×øÿÿÿÿ8‡ÈŸâ¸/
+e
+java:S1192À"GDefine a constant instead of duplicating this literal ">>>---" 3 times.(§ªöˆ8ˆÈŸâ¸/
+m
+java:S1192Æ"ODefine a constant instead of duplicating this literal "Txn Amt : Rs. " 3 times.(®İ…ä8ŠÈŸâ¸/
+k
+java:S1192Ú"HDefine a constant instead of duplicating this literal "message" 3 times.(ó´„Ûşÿÿÿÿ8ŠÈŸâ¸/
+s
+java:S1192Ê"UDefine a constant instead of duplicating this literal "Balance Amount: Rs. " 3 times.(œÒöÿ8ŠÈŸâ¸/
+^	java:S107"<Method has 9 parameters, which is greater than 7 authorized.(óòÑ¤ıÿÿÿÿ8ÈŸâ¸/
+s	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¯ªÀúÿÿÿÿ8ÈŸâ¸/
+s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÍäáúÿÿÿÿ8ÈŸâ¸/
+s	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âªû™ıÿÿÿÿ8‘ÈŸâ¸/
+n	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç»ì÷8‘ÈŸâ¸/
+l	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑØ±Æûÿÿÿÿ
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùÿ¾ùüÿÿÿÿ
+l	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÙşÉıÿÿÿÿ
+l	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÜÖùÿÿÿÿ
+g	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Å­›
+l	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”“÷Òúÿÿÿÿ
+F
+java:S1604‘"(Make this anonymous inner class a lambda(ÚÜßË8™¨˜â¸/
+F
+java:S1604˜"(Make this anonymous inner class a lambda(ã‘Àò8“ÈŸâ¸/
+K
+java:S1604¡"(Make this anonymous inner class a lambda(ÃŞ“£úÿÿÿÿ8”ÈŸâ¸/
+F
+java:S1604¨"(Make this anonymous inner class a lambda(å«ë³8•ÈŸâ¸/
+F
+java:S1604º"(Make this anonymous inner class a lambda(¼Š¢¢8•ÈŸâ¸/
+K
+java:S1604Õ"(Make this anonymous inner class a lambda(òÂ“úÿÿÿÿ8•ÈŸâ¸/
+K
+java:S1604ù"(Make this anonymous inner class a lambda(¨Å©Úúÿÿÿÿ8•ÈŸâ¸/
+F
+java:S1604ƒ"(Make this anonymous inner class a lambda(Î¬¯”8–ÈŸâ¸/
+F
+java:S1604¾"(Make this anonymous inner class a lambda(»ç€à8–ÈŸâ¸/
+o
+java:S1104X"SMake manager a static final constant or non-public and provide accessors if needed.(ÿşÌA8›ÈŸâ¸/
+O
+java:S1153°"1Directly append the argument of String.valueOf().(â×¸8§ÈŸâ¸/

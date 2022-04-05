@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/card_padding"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/details_text_size"
+        android:id="@+id/bankName"
+        android:text="Hello"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="left|center_vertical"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/card_padding"
+        android:layout_marginLeft="@dimen/divider_padding"
+        android:background="@color/grey"/>
+</LinearLayout>

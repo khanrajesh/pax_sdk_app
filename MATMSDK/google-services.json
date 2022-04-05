@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "457406738659",
+    "firebase_url": "https://isusdk-b4613.firebaseio.com",
+    "project_id": "isusdk-b4613",
+    "storage_bucket": "isusdk-b4613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457406738659:android:565a38b80f33ca5724d5d6",
+        "android_client_info": {
+          "package_name": "com.jayam.impactapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457406738659-6est3e0ua8k0jcthu5ippr32t37k8k3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYY42TUyjElRZIiVIFNnLCNXWybDtu1Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457406738659-6est3e0ua8k0jcthu5ippr32t37k8k3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457406738659:android:dbec281f1f41bc1924d5d6",
+        "android_client_info": {
+          "package_name": "isumatm.androidsdk.equitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457406738659-6est3e0ua8k0jcthu5ippr32t37k8k3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYY42TUyjElRZIiVIFNnLCNXWybDtu1Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457406738659-6est3e0ua8k0jcthu5ippr32t37k8k3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

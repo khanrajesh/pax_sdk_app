@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    tools:context="com.matm.matmsdk.aepsmodule.BioAuthActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:tint="@color/white"
+            android:visibility="gone"
+            android:src="@drawable/ic_clear_24px"/>
+        <LinearLayout
+            android:id="@+id/bio_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/buttonSolidColor">
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:text=""/>
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/bl_select_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_margin="@dimen/_4sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/bl_aadhar_no_rd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Aaadhar Number"/>
+                <RadioButton
+                    android:id="@+id/bl_aadhar_uid_rd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="invisible"
+                    android:text="Virtual Id"/>
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/bl_number_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bl_select_type"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/balanceAadharNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_button_bg"
+                    android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+                    android:hint=" Enter Aadhar No."
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:padding="8dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/details_text_size"
+                    android:typeface="monospace"
+                    android:visibility="visible"
+                    />
+
+                <EditText
+                    android:id="@+id/balanceAadharVID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_button_bg"
+                    android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+                    android:hint=" Enter Aadhar Virtual Id."
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:padding="8dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/details_text_size"
+                    android:typeface="monospace"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/two_fact_fingerprint"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/buttonSolidColor"
+                    android:src="@drawable/ic_fingerprint_black_24dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/fingerprintStrengthDeposit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two_fact_fingerprint"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Fingerprint Strength"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <com.moos.library.HorizontalProgressView
+                    android:id="@+id/depositBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/fingerprintStrengthDeposit"
+                    app:corner_radius="18dp"
+                    app:isTracked="true"
+                    android:layout_marginLeft="@dimen/_23sdp"
+                    android:layout_marginRight="@dimen/_23sdp"
+                    app:progressTextColor="@color/black"
+                    app:progressTextVisibility="true"
+                    app:trackColor="#f4f4f4"
+                    android:visibility="gone"
+                    app:track_width="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/depositBar"
+                    android:layout_marginTop="05dp"
+                    android:id="@+id/depositNote"
+                    android:padding="@dimen/card_padding"
+                    android:text="Note : Recommended Fingerprint Strength is 70%"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
+
+
+
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/two_fact_submitButton"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/fingerprint"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="@drawable/gray_stoke"
+                android:enabled="true"
+                android:padding="8dp"
+                android:text="Submit"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:typeface="monospace"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

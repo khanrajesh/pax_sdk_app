@@ -1,0 +1,4 @@
+include ':app', ':MATMSDK'
+rootProject.name='PAX_SDK_APP'
+
+

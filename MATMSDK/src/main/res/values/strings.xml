@@ -1,0 +1,312 @@
+<resources>
+    <string name="app_name">MATM</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Resources -->
+    <string name="image_desc">Icon Image</string>
+    <string name="login_heading">Log In</string>
+    <string name="login_subheading">Welcome, we are happy that you are back.</string>
+    <string name="login_username_placeholder">Username</string>
+    <string name="login_password_placeholder">Password</string>
+    <string name="error_msg">Error!!</string>
+    error_msg
+
+    <!-- Prompt Resources -->
+
+    <string name="prompt_title">Prompt</string>
+    <string name="prompt_exit_title">Exit</string>
+    <string name="prompt_trans_success">Transaction Success!</string>
+    <string name="prompt_exit">Are you sure to exit?</string>
+    <string name="prompt_use_card">Swipe/Insert/Tap card...</string>
+    <string name="prompt_select_goods">Please select goods first!</string>
+    <string name="prompt_connect_device">Please connect a bluetooth device first!</string>
+    <string name="prompt_get_pin">Get pin block failed!</string>
+    <string name="prompt_cash">Are you sure to settle by cash?</string>
+    <string name="prompt_downloading">Downloading</string>
+    <string name="prompt_connecting">Connecting</string>
+    <string name="prompt_wait">Please Wait&#8230;</string>
+    <string name="prompt_file_download_success">File download successful!</string>
+    <string name="prompt_file_download_failed">File download failed!</string>
+    <string name="prompt_select_files">Please select files first!</string>
+    <string name="prompt_set_param">Please set Param</string>
+    <string name="prompt_save_success">Save success!</string>
+    <string name="prompt_reload_success">Reload success!</string>
+
+    //Bluetooth
+    <string name="empty_list_message">No nearby devices found. Tap on the bottom-right button to start a new device discovery.</string>
+    <string name="device_already_paired">This device is already paired!</string>
+    <string name="device_discovery_started">Looking for nearby devices&#8230;</string>
+    <string name="enabling_bluetooth">Turning on Bluetooth and looking for devices&#8230;</string>
+    <string name="device_discovery_stopped">Device discovery cancelled</string>
+    <string name="bluetooth_not_available_message">It seems that this device doesn\'t have a Bluetooth controller available. \nBlue Pair works only with Bluetooth, so please try again on a different device. \nThe app will be now terminated.</string>
+    <string name="bluetooth_not_available_title">Bluetooth not available</string>
+
+    <string name="dialog_sure">Sure</string>
+    <string name="dialog_cancel">Cancel</string>
+
+
+    <string name="trans_time">Trans Time:</string>
+    <string name="choosecard">Insert/Swipe/Tap card</string>
+    <string name="complete">Payment successful</string>
+    <string name="check_box">whole</string>
+
+    <string name="scan">Scan</string>
+    <string name="stop_scan">stop searching</string>
+
+    <!-- bt -->
+    <string name="paired_device">Paired device</string>
+    <string name="available_devices">Available devices</string>
+    <string name="search">Search Devices</string>
+    <string name="stop_searching">Stop Searching</string>
+
+    <!-- usb -->
+    <string name="usb">USB</string>
+    <string name="usb_connect">Usb Connect</string>
+    <string name="connected_device">Connected device</string>
+    <string name="no_available_device">No Available USB Device</string>
+
+
+    <!--AEPS-->
+
+    <string name="valid_vid_error">Enter your correct AADHAR VID</string>
+    <string name="aadhaarVID">Enter your Aadhaar Virtual ID</string>
+
+    <string name="app_name_stagging">EASY AEPS Stagging</string>
+    <string name="pmoney">Perfect Money</string>
+    <string name="samriddhi">SAMRIDDHI Foundation</string>
+    <string name="dpay">Digital Payment Solutions</string>
+    <string name="dseva">Smart Digi Seva</string>
+    <string name="cyrusw68">CYRUS BION</string>
+    <string name="bisani">Bisani Brothers </string>
+    <string name="fipay">Fipay</string>
+    <string name="isewa">iSEWA</string>
+    <string name="krac">KRAC</string>
+    <string name="mdigipay">mdigipay</string>
+    <string name="money">mMoney</string>
+    <string name="nmarata">Namrata Traders</string>
+    <string name="payatm">payATM</string>
+    <string name="pragati">Pragatipay</string>
+    <string name="movecashless">move cash less</string>
+    <string name="rekha">Rekha Computers</string>
+    <string name="realpay">Realpay</string>
+    <string name="saralpay">Saral Pay</string>
+    <string name="saservice">SA Service</string>
+    <string name="sps">SPS</string>
+    <string name="ssf">SSF</string>
+    <string name="toto">Toto Company</string>
+    <string name="instacash">Insta Cash Pay</string>
+    <string name="bringpay">BRINGPAY</string>
+    <string name="digipayfast">DIGIPAY FAST</string>
+    <string name="emitrahub">Emitra HUB</string>
+    <string name="esavapay">e_Seva Pay</string>
+    <string name="thumbpay">THUMB PAY</string>
+    <string name="omfinserve">Omfinserve</string>
+    <string name="paymnc">MNC CARE</string>
+    <string name="payup">Digital Sewa</string>
+    <string name="sakala">SAKALAONE</string>
+    <string name="sanpay">SAN pay</string>
+    <string name="smartodisha">SMART ODISHA</string>
+    <string name="smartpayservice">SmartPayservice</string>
+    <string name="sumptuoustrading">Sumptuous Trading</string>
+    <string name="payacross">Pay-Across Aadhar</string>
+    <string name="appkaatm">AAP KA ATM</string>
+    <string name="oneindiapayments">ONE INDIA</string>
+    <string name="vinayakinfotech">Vi Service Solution</string>
+    <string name="cashand">CASH &amp;</string>
+    <string name="digitalindiabanking">DIGITAL INDIAN BANKING</string>
+    <string name="nammabharat">NAMMA BHARAT</string>
+    <string name="spoint">S-POINT</string>
+    <string name="msg_double_click_to_exit">Press again to close</string>
+
+
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="noReport">No Reports To Show</string>
+    <string name="valid_aadhar_error">Enter your correct AADHAR Card</string>
+    <string name="report">Report</string>
+    <string name="aeps">AEPS</string>
+    <string name="matm">Micro ATM</string>
+    <string name="aeps2">AEPS 2</string>
+    <string name="select">Select Transaction type</string>
+    <string name="balanceenquiry">Balance Enquiry</string>
+    <string name="transactionstatus">Transaction Status</string>
+    <string name="enteramountbelow">Enter amount below</string>
+    <string name="amount">Amount</string>
+    <string name="proceed">Proceed</string>
+    <string name="MATM_CASH_WIHDRAWAL">Cash Withdrawal</string>
+    <string name="logout">Logout</string>
+    <string name="aeps_report_title">AEPS Report</string>
+    <string name="matm_report_title">MATM Report</string>
+    <string name="aeps2_report_title">AEPS2 Report</string>
+    <string name="aeps_bank_list_title">Select Bank</string>
+    <string name="invalid_username_password">Invalid User Name and Password</string>
+    <string name="session_expired">Your session has expired. Please login again !!!</string>
+    <string name="connection_internet">There is no internet Connection. Please Check your internet Connection to proceed !!!!</string>
+    <string name="empty_fields">please enter valid credentials to proceed.</string>
+    <string name="empty_date">Please enter date to proceed</string>
+    <string name="search_hint">Search</string>
+    <string name="Validaadhaarerror">Enter your correct Aadhaar Card Number</string>
+    <string name="aadhaarnumber">Enter your Aadhaar Card Number</string>
+    <string name="mobileerror">Enter your correct mobile</string>
+    <string name="mobilevaliderror">Enter valid mobile</string>
+    <string name="apitid">Enter youe ApiTid Value</string>
+    <string name="posh">UNKNOWN</string>
+    <string name="home_title">HOME</string>
+    <string name="apitdierror">Enter the Correct APITID Value</string>
+    <string name="amount_error">Enter the Amount</string>
+    <string name="select_bank_error">Select Bank</string>
+    <string name="ok_error">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="cash_deposit_error">Cash Deposit is not working due to NPCI Server down.</string>
+    <string name="fail_error">Fail !</string>
+    <string name="amount_outstanding">Amount Outstanding : </string>
+    <string name="transaction_type">Transaction Type : </string>
+    <string name="user_name">User Name : </string>
+    <string name="amount_transacted">Amount Transacted : </string>
+    <string name="previous_amount">Previous Amount : </string>
+    <string name="id">ID : </string>
+    <string name="created_date">Created Date : </string>
+    <string name="balance_amount">Balance Amount : </string>
+    <string name="user_track_id">User Track ID : </string>
+    <string name="status">Status : </string>
+    <string name="amountrefersh">The amount field is empty, Please contact your Bank for further details</string>
+    <string name="transaction_mode_refersh">Your Transaction Mode field is empty, Please contact your Bank for further details</string>
+    <string name="transaction_type_refersh">Your Transaction Type field is empty, Please contact your Bank for further details</string>
+    <string name="clientUniqueId">Your client Id is empty, Please contact your Bank for further details</string>
+    <string name="severerror">There is some error with the server, Please connect your bank for further proceedings</string>
+
+
+    <string name="fail_error_100">Invalid PidOptions input. XML should strictly adhere to spec.</string>
+    <string name="fail_error_110">Invalid value for fType</string>
+    <string name="fail_error_120">Invalid value for fCount</string>
+    <string name="fail_error_130">Invalid value for iType</string>
+    <string name="fail_error_140">Invalid value for iCount</string>
+    <string name="fail_error_999">Internal error</string>
+    <string name="success">Success !!!</string>
+    <string name="capture_success">Fingerprint Capture Successfully</string>
+    <string name="alert_error">Alert !!!</string>
+    <string name="pair_device">Pinpad device is not paired. Click on Pair for paring device</string>
+    <string name="pair">PAIR</string>
+    <string name="morpho">Morpho RD Service</string>
+    <string name="device_connect">No Device Found</string>
+    <string name="decive_please_connect">Unable to find any USB device connected or the USB device does not support the app.</string>
+    <string name="device_replugin">Please remove and connect the Biometric device with the phone.</string>
+    <string name="mantra">Unable to find Mantra Management Client app. Please install it from playstore.</string>
+    <string name="mantra_rd_service">Unable to find Mantra RD Service app. Please install it from playstore.</string>
+    <string name="fm220U_service">Unable to find FM220U RD Service app. Please install it from playstore.</string>
+    <string name="precision_service">Unable to find Precision RD Service app. Please install it from playstore.</string>
+
+    <string name="install_morpho_message">Morpho SCL RDService was not found. Please download it from the Playstore.</string>
+    <string name="mantra_install">Mantra RD Service</string>
+    <string name="Fm220U_install">FM220U RD Service</string>
+    <string name="Precision_install">Precision RD Service</string>
+    <string name="mantra_client_management_install">Mantra Management Client</string>
+    <string name="device_is_not_ready_error">Device is not ready . Please wait !!!</string>
+    <string name="scanning_error">There are some error while scanning the finger. Please remove and connect the Biometric Device and try Again !!!</string>
+    <string name="scan_finger_alert_error">Please scan your finger!!!</string>
+
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of YOUR_APP_NAME is available. Please update to version\s</string>
+    <string name="youAreNotUpdatedMessage1"> now</string>
+    <string name="update">Update</string>
+    <string name="slide_1_title">Before You Start Using AEPS</string>
+    <string name="slide_1_desc">Please make sure that you have installed the RD service App for the Biometric device.</string>
+    <string name="slide_2_title">Flawless Transaction Through Your Fingertips</string>
+    <string name="slide_2_desc">The only thing you need is your fingerprint and your Aadhar Number.</string>
+    <string name="slide_3_title">Easy Reporting</string>
+    <string name="slide_3_desc">Get all your transaction details reported seamlessly with just a click.</string>
+
+    <string name="next"><font color="#000000">NEXT</font></string>
+    <string name="skip"><font color="#000000">SKIP</font></string>
+    <string name="start">START</string>
+    <string name="alright"><font color="#000000">Alright, I got it</font></string>
+    <string name="welcome">Welcome</string>
+    <string name="askbank">There is some error in the server, Please try again after some time!!!</string>
+    <string name="connection_bluetooth_device">Please pair your bluetooth device to proceed.</string>
+    <string name="pair_bluetooth_device">Pair Device</string>
+    <string name="aadhaarnumber_vid">Enter your virtual id</string>
+    <string name="valid_aadhar__uid_error">Enter your correct virtual id</string>
+    <string name="setting_device">Unable to find any Biometric device connected, Please go to the settings option in the menu and select a device to proceed.</string>
+
+    <!--PDF Strings-->
+
+    <string name="pdf_files">PDF</string>
+    <string name="save_pdf_btn">Save as PDF</string>
+    <string name="print_btn">Print</string>
+    <!-- strings for dialog -->
+    <string name="string_permission_help">Help</string>
+    <string name="string_permission_help_text">The permission is missing.\n\nTo grant this permission click on Settings, then Permissions and turn the permission on.\n\nThen click back twice to return to the app</string>
+    <string name="string_permission_quit">Exit App</string>
+    <string name="string_settings">Settings</string>
+
+    <!--  <string name="bluetooth_not_available_message">It seems that this device doesn\'t have a Bluetooth controller available. \nBlue Pair works only with Bluetooth, so please try again on a different device. \nThe app will be now terminated.</string>
+
+    <string name="bluetooth_not_available_title">Bluetooth not available</string>
+    <string name="device_discovery_started">Looking for nearby devices…</string>
+
+    <string name="enabling_bluetooth">Turning on Bluetooth and looking for devices…</string>
+
+    <string name="device_discovery_stopped">Device discovery cancelled</string>
+    <string name="device_already_paired">This device is already paired!</string>
+    <string name="empty_list_message">No nearby devices found. Tap on the bottom-right button to start a new device discovery.</string>-->
+
+    <string name="transaction_details"><u>View Transaction Details</u></string>
+    <string name="terms_Conditions"><u>Terms &amp; Conditions</u></string>
+    <string name="term1">I confirm that I have approached iServeU Technology Pvt Ltd (iServeU) , acting as Business Correspondent of its partner Banks, to access AEPS
+Services (Cash Withdrawal/Balance Enquery/other services under it) of partner Banks and in this connection, iServeU requires my consent to
+collect and use my Virtual ID/ Aadhaar number and finger print for enabling partner Banks to conduct authentication of my identity in order to
+process and complete AEPS transaction and iServeu has informed me that
+i) said information are required for the purpose of enabling
+partners Bank to conduct authentication of my identity in order to process and complete AEPS transaction;
+
+(ii) as an alternative to submission of my Aadhaar number, I may submit my Virtual ID
+
+(iii) the provision mandating requirement of said information is contained in para 14 of
+Procedural Guidelines for Aadhaar Enabled Payment System (Version 1.4) as issued by National Payment Corporation of India.</string>
+
+
+    <string name="term2">I hereby give mg voluntary, explicit and informed consent to iServeu to obtain and use my Virtual ID/ Aadhaar number and finger print for the
+purpose of enabling partner Banks to conduct authentication of mg identity in order to process and complete AEPS transaction to be
+undertaken by me.</string>
+
+    <string name="hinditm1">मैं पुष्टि करता हूं कि मैंने iServeu Technology Pvt Ltd (\'iServeU\'\) से संपर्क किया है, AEPS का उपयोग करने के लिए अपने सहयोगी बैंकों के बिजनेस कॉरेस्पोंडेंट के रूप में कार्य कर रहा है।
+साझेदार बैंकों की सेवाएँ (नकद निकासी / शेष राशि / अन्य सेवाएँ) इसके तहत और इस संबंध में, iServeU को आपकी सहमति की आवश्यकता होती है
+साझेदार बैंकों को सक्षम करने के लिए मेरी वर्चुअल आईडी / आधार नंबर और फिंगर प्रिंट एकत्र करें और उपयोग करें ताकि मेरी पहचान का प्रमाणीकरण हो सके
+प्रक्रिया और पूर्ण AEPS लेनदेन और iServeu ने मुझे सूचित किया है कि
+
+    (i) सक्षम करने के उद्देश्य से जानकारी आवश्यक है
+AEPS लेनदेन को संसाधित करने और पूरा करने के लिए बैंक मेरी पहचान का प्रमाणीकरण करने के लिए;
+
+        (ii) प्रस्तुत करने के विकल्प के रूप में
+मेरे आधार नंबर की, मैं अपनी वर्चुअल आईडी जमा कर सकता हूं;
+
+        (iii) उक्त जानकारी का प्रावधान अनिवार्य करने की आवश्यकता पैरा 14 में समाहित है
+भारत के राष्ट्रीय भुगतान निगम द्वारा जारी आधार सक्षम भुगतान प्रणाली (संस्करण 1.4) के लिए प्रक्रियात्मक दिशानिर्देश।
+    </string>
+
+
+    <string name="hinditm2">मैं अपने वर्चुअल आईडी / आधार नंबर और फिंगर प्रिंट को प्राप्त करने और उपयोग करने के लिए iServeu के लिए मिलीग्राम स्वैच्छिक, स्पष्ट और सूचित सहमति देता हूं।
+भागीदार बैंकों को सक्षम करने का उद्देश्य प्रक्रिया को पूरा करने और AEPS लेनदेन को पूरा करने के लिए mg पहचान का प्रमाणीकरण करना है
+मेरे द्वारा किया गया।</string>
+    <string name="cash_withdrawal">Cash Withdrawal</string>
+    <string name="request_balance">Request Balance</string>
+    <string name="mini_statement">Mini Statement</string>
+    <string name="balance_amt_txt">Balance Amount : </string>
+    <string name="card_number_txt">Card Number : </string>
+    <string name="transaction_type_txt">Transaction Type : </string>
+    <string name="terminal_id_txt">Terminal Id : </string>
+    <string name="mid_txt">MID : </string>
+    <string name="rrn_txt">RRN : </string>
+    <string name="date_time_txt">Date/Time : </string>
+    <string name="transaction_id_txt">Transaction Id : </string>
+    <string name="txn_amt_txt">Transaction Amount : </string>
+    <string name="thanks_txt">Thank You !</string>
+    <string name="txn_report_txt">Transaction Report</string>
+
+
+</resources>

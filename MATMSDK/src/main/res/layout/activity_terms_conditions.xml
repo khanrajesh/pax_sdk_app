@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        tools:context="com.matm.matmsdk.aepsmodule.TermsConditionsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swOnOff"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:thumb="@drawable/custom_thumb"
+            app:showText="true"
+            android:textOn="ह"
+            android:textOff="E"
+            app:track="@drawable/custom_track" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firststText"
+            android:gravity="top"
+            android:textFontWeight="1"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:text="@string/term1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondstText"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:text="@string/term2"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/close_Btn"
+            android:background="@drawable/button_submit_blue"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_25sdp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

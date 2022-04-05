@@ -1,0 +1,244 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppThemeee" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#f56f2c</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#38EBDE</item>
+        <item name="colorPrimaryDark">#00C3D7</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--<style name="AppThemeeeee" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>-->
+
+   <!-- <style name="AppTheme" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+-->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondery</item>
+        <item name="colorPrimaryDark">@color/seconderyDark</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="ThemePoS" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondery</item>
+        <item name="colorPrimaryDark">@color/seconderyDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextInputLayoutWithWhiteColor" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="LoginEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <!-- Alert Diloag Style -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="MyTheme" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+    </style>
+
+
+    <!--Theme added by
+   @Author - RashmiRanjan
+   @date - 2nd Dec 2020
+   -->
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">#e34b1c</item>
+        <item name="colorControlActivated">#e34b1c</item>
+
+    </style>
+
+    <style name="DarkTheme">
+        <item name="android:textColorPrimary">@color/gayGrafity</item>
+        <item name="colorPrimaryDark">@color/gayGrafity</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorAccent">@color/grey</item>
+        <item name="android:textColor">@color/gayGrafity</item>/>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+
+
+        <!--  <item name="android:textColorHint">@color/black</item>-->
+        <!--   <item name="android:windowBackground">#000</item>-->
+        <!-- <item name="hintTextColor">@color/black</item>-->
+    </style>
+
+    <style name="BlueTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorPrimary">#00acc1</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/black</item>/>
+        <item name="errorTextColor">@color/red</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/colorBlue</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+    </style>
+
+    <style name="RedTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorPrimary">#d32f2f</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/black</item>/>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/red</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="YellowTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorPrimary">#fbc02d</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+    <style name="GreenTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorPrimary">#689f38</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/green</item>
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+
+    <style name="BrownTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">#3e2723</item>
+        <item name="colorPrimary">#4e342e</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/brown</item>
+        <item name="colorControlActivated">@color/brown</item>
+    </style>
+
+    <style name="MediumSlateBlue">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/MediumSlateBlue</item>
+        <item name="colorPrimary">@color/MediumSlateBlue</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/MediumSlateBlue</item>
+        <item name="colorControlActivated">@color/MediumSlateBlue</item>
+    </style>
+
+    <style name="Bluetiful">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/Bluetiful</item>
+        <item name="colorPrimary">@color/Bluetiful</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/Bluetiful</item>
+        <item name="colorControlActivated">@color/Bluetiful</item>
+    </style>
+
+
+    <style name="VioletBlue">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/VioletBlue</item>
+        <item name="colorPrimary">@color/VioletBlue</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/VioletBlue</item>
+        <item name="colorControlActivated">@color/VioletBlue</item>
+    </style>
+
+    <style name="PermanentGeraniumlake">
+        <item name="android:textColorPrimary">@color/black  </item>
+        <item name="colorPrimaryDark">@color/PermanentGeraniumLake</item>
+        <item name="colorPrimary">@color/PermanentGeraniumLake</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <!-- this item is for material editText Color -->
+        <item name="colorControlNormal">@color/PermanentGeraniumLake</item>
+        <item name="colorControlActivated">@color/PermanentGeraniumLake</item>
+        <item name="boxStrokeColor">@color/PermanentGeraniumLake</item>
+        <item name="colorOnSurface">@color/PermanentGeraniumLake</item>
+    </style>
+
+</resources>

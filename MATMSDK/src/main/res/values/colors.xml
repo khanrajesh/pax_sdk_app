@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorTextPrimary">#DF000000</color>
+    <color name="colorTextSecondary">#8A000000</color>
+    <color name="colorTextDisable">#61000000</color>
+    <color name="colorTextDivider">#1F000000</color>
+    <color name="editTextBaseLine">#FFD39009</color>
+
+    <color name="lightDark">#777777</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="yellow">#FFD39009</color>
+    <color name="error">#F62459</color>
+    <color name="secondery">#00a5bf</color>
+    <color name="seconderyDark">#047e91</color>
+
+    <color name="colorPrimary_aar">#413B6B</color>
+    <color name="very_light_grey">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="buttonSolidColor">#5c59c4</color>
+    <color name="edittextSolidColor">#80ffebbd</color>
+    <color name="white">#ffff</color>
+    <color name="black">#000000</color>
+    <color name="gayGrafity">#9e9e9e</color>
+    <color name="mdtp_accent_color">#f26a10</color>
+    <color name="mdtp_accent_color_dark">#ca6201</color>
+    <color name="grey">#80ccc9c7</color>
+    <color name="red">#ff000d</color>
+    <color name="green">#07c700</color>
+    <color name="brown">#4e342e</color>
+
+    <!--retrofit color-->
+    <color name="orange">#FF3909</color>
+    <color name="colorAccentDark">#00B482</color>
+    <color name="colorBlack">#555555</color>
+     <color name="colorGrey">#707070</color>
+    <color name="colorGreyLight">#8A8A8A</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+    <item>@color/dot_light_screen1</item>
+    <item>@color/dot_light_screen2</item>
+    <item>@color/dot_light_screen3</item>
+    <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!--Color for Theme-->
+    <!--Added By Rashmi -->
+    <color name="MediumSlateBlue">#955DF3</color>
+    <color name="Bluetiful">#3065E7</color>
+    <color name="VioletBlue">#3C44C0</color>
+
+    <!--    on 03.07 by manas-->
+    <color name="shimmer_background">#dddddd</color>
+    <color name="selected">#00c3d7</color>
+    <color name="selectedSecondary">#38EBDE</color>
+    <color name="unselected">#979595</color>
+    <color name="cardDark">#26292e</color>
+    <color name="cardDarkLight">#3c4045</color>
+
+    <color name="statusfail">#D94237</color>
+    <color name="light_blue">#00c3d7</color>
+    <color name="textColor">#454545</color>
+    <color name="textColorDark">#1E1E1E</color>
+    <color name="colorBlue">#1976D2</color>
+    <color name="color_report_green">#388E3C</color>
+    <color name="color_report_red">#F44336</color>
+    <color name="buttonTextColors">#FFFFFF</color>
+    <color name="transaction_fail">#B31426</color>
+    <color name="transaction_success">#238A79</color>
+
+    <!--Color for the New Transaction UI-->
+
+    <color name="txnBkgGrey">#FAFAFA</color>
+    <color name="txnBkgblack">#000000</color>
+    <color name="txnBkgtextColor">#373636</color>
+    <color name="txnBkgwhite">#ffffff</color>
+    <color name="txnBkglightblue">#00c3d7</color>
+    <color name="txnBkgbkgblue">#84E5EF</color>
+    <color name="txnBkgred">#F44336</color>
+    <color name="txnBkggreen">#65B10E</color>
+    <color name="PermanentGeraniumLake">#E31E24</color>
+
+    <color name="txnBkgDarkblue">#027681</color>
+
+
+    <color name="trans_success_txt_green">#30CE66</color>
+    <color name="trans_fail_insuff_bal_txt">#DE3D6F</color>
+    <color name="trans_txt">#083863</color>
+    <color name="trans_fail_rupees_txt">#E64A50</color>
+    <color name="trans_success_rupees_txt">#247AC7</color>
+    <color name="amount">#247AC7</color>
+    <color name="textViewTxnPos">#083863</color>
+</resources>

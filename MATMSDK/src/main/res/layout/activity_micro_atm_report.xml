@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_padding"
+        android:id="@+id/dateLayout"
+        android:clickable="true"
+        android:background="@drawable/calendar_rect_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Date Range for Reports"
+            android:id="@+id/chooseDateRange"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/card_padding"
+            android:textSize="@dimen/details_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding"
+        android:layout_marginLeft="@dimen/card_padding"
+        android:layout_marginRight="@dimen/card_padding"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reportRecyclerView"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="@dimen/card_padding"
+            android:layout_centerInParent="true"
+            android:id="@+id/noData"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/title_text_size"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/noReport"/>
+
+    </LinearLayout>
+
+</LinearLayout>

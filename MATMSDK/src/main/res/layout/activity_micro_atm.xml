@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar_matm"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:id="@+id/tabLayout"
+            android:layout_below="@+id/toolbar_matm">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/aeps"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/card_padding"
+                    android:typeface="monospace"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/aepsTabOption"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/matm"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/card_padding"
+                android:clickable="true"
+                android:typeface="monospace"
+                android:focusable="true"
+                android:id="@+id/matmTabOption"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/microTabline"/>
+            </LinearLayout>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aeps2"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/card_padding"
+            android:clickable="true"
+            android:typeface="monospace"
+            android:focusable="true"
+            android:id="@+id/aeps2Option"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_padding"
+            android:orientation="vertical"
+            android:padding="@dimen/card_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select"
+                    android:textSize="@dimen/text_size_small"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"/>
+                <RadioGroup
+                    android:id="@+id/rg_trans_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
+                    <RadioButton
+                        android:id="@+id/rb_cw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/MATM_CASH_WIHDRAWAL" />
+                    <RadioButton
+                        android:id="@+id/rb_be"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/balanceenquiry" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/enteramountbelow"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:padding="@dimen/card_padding"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/labelTextiew"/>
+
+            <EditText
+                android:id="@+id/et_amount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:hint="@string/amount"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:background="@drawable/amount_shape"/>
+            <Button
+                android:id="@+id/btn_proceed"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/proceed"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColorHint="@android:color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/blutoothButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/pair_bluetooth_device"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small"
+        android:padding="@dimen/card_padding"
+        android:layout_margin="@dimen/card_margin" />
+</RelativeLayout>
+

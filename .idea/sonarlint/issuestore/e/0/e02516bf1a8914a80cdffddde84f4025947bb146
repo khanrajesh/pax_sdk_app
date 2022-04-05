@@ -1,0 +1,256 @@
+
+f	java:S116>"RRename this field "rb_mini" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ò¼o
+k	java:S116>"WRename this field "rb_adhaarpay" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ò¼o
+n	java:S116?"TRename this field "et_paramA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ºşëúÿÿÿÿ
+n	java:S116?"TRename this field "et_paramB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ºşëúÿÿÿÿ
+g	java:S116@"SRename this field "btn_pair" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+n	java:S116@"ZRename this field "btn_proceedaeps" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+h	java:S116@"TRename this field "BtnUnpair" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+h	java:S116@"TRename this field "Btndriver" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+h	java:S116@"TRename this field "btn_matm1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+h	java:S116@"TRename this field "btn_check" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶”o
+Y
+java:S1659>"DDeclare "rb_mini" and all following declarations on a separate line.(˜Ò¼o
+a
+java:S1659?"FDeclare "et_paramA" and all following declarations on a separate line.(³ºşëúÿÿÿÿ
+Z
+java:S1659@"EDeclare "btn_pair" and all following declarations on a separate line.(Í¶”o
+F
+java:S1659B"+Declare "isMatmClicked" on a separate line.(ÄÕ¨Ëøÿÿÿÿ
+B
+java:S1659G"'Declare "adminName" on a separate line.(óÒüÆøÿÿÿÿ
+s
+java:S1450E"XRemove the "usbDevice" field and declare it as a local variable in the relevant methods.(ÑæÀ÷ıÿÿÿÿ
+[
+java:S1124;"EReorder the modifiers to comply with the Java Language Specification.(Š·À
+L
+java:S1874F"6Remove this use of "ProgressDialog"; it is deprecated.(Ó¾õ
+Q
+java:S1874H"6Remove this use of "ProgressDialog"; it is deprecated.(¡æÓÂüÿÿÿÿ
+V	java:S125Q"<This block of commented-out lines of code should be removed.(Ÿ˜Çáúÿÿÿÿ
+V	java:S125T"<This block of commented-out lines of code should be removed.(öüèûüÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(öûåäùÿÿÿÿ
+{
+java:S5996e"`Remove or replace this boundary that will never match because it appears before mandatory input.(şıÜÔüÿÿÿÿ
+z
+java:S5996e"_Remove or replace this boundary that will never match because it appears after mandatory input.(şıÜÔüÿÿÿÿ
+L
+java:S2696h"6Make the enclosing method "static" or remove this set.(ì²¹‹
+Q
+java:S2696j"6Make the enclosing method "static" or remove this set.(Ğ‹áıÿÿÿÿ
+V	java:S125j"<This block of commented-out lines of code should be removed.(Ğ‹áıÿÿÿÿ
+Q
+java:S2696m"6Make the enclosing method "static" or remove this set.(´£šŸüÿÿÿÿ
+Q
+java:S2696n"6Make the enclosing method "static" or remove this set.(ªé±âşÿÿÿÿ
+h
+java:S3776x"RRefactor this method to reduce its Cognitive Complexity from 46 to the 15 allowed.(šœ•²
+M
+java:S2696“"6Make the enclosing method "static" or remove this set.(¯åó·
+M
+java:S2696•"6Make the enclosing method "static" or remove this set.(÷•ºî
+L
+java:S2696–"6Make the enclosing method "static" or remove this set.(€Õ1
+M
+java:S2696š"6Make the enclosing method "static" or remove this set.(¤¼ñé
+M
+java:S2696›"6Make the enclosing method "static" or remove this set.(Ëã—É
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(å¡Ğ°
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(š×Õ¢
+M
+java:S2696²"6Make the enclosing method "static" or remove this set.(Âõ´
+R	java:S125½"<This block of commented-out lines of code should be removed.(°°ç˜
+R	java:S125Ï"<This block of commented-out lines of code should be removed.(¡Õ±š
+R	java:S125Ü"<This block of commented-out lines of code should be removed.(¶è´í
+R	java:S125Ş"<This block of commented-out lines of code should be removed.(¡Õ±š
+R
+java:S2696ì"6Make the enclosing method "static" or remove this set.(òÜÉ´üÿÿÿÿ
+M
+java:S2696‡"6Make the enclosing method "static" or remove this set.(´ÌÓ
+R
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(¾ÑÄ†üÿÿÿÿ
+i
+java:S1871¹"MThis branch's code block is the same as the block for the branch on line 302.(§‡»ûÿÿÿÿ
+i
+java:S1871²"MThis branch's code block is the same as the block for the branch on line 295.(ÚøûÏúÿÿÿÿ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ß¤Õ¼
+M
+java:S2696İ"6Make the enclosing method "static" or remove this set.(ÀõÜÉ
+L
+java:S2696Ş"6Make the enclosing method "static" or remove this set.(àüªI
+M
+java:S2696à"6Make the enclosing method "static" or remove this set.(÷•ºî
+M
+java:S2696á"6Make the enclosing method "static" or remove this set.(½óÕ
+M
+java:S2696â"6Make the enclosing method "static" or remove this set.(œÊ¬£
+M
+java:S2696ã"6Make the enclosing method "static" or remove this set.(Ã•“¶
+R	java:S125â"<This block of commented-out lines of code should be removed.(œÊ¬£
+R
+java:S2696ä"6Make the enclosing method "static" or remove this set.(Ÿƒï¥ıÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(Ã•“¶
+R
+java:S2696æ"6Make the enclosing method "static" or remove this set.(ı°¡®ıÿÿÿÿ
+W	java:S125ä"<This block of commented-out lines of code should be removed.(Ÿƒï¥ıÿÿÿÿ
+R
+java:S2696ç"6Make the enclosing method "static" or remove this set.(º‹çûÿÿÿÿ
+R
+java:S2696è"6Make the enclosing method "static" or remove this set.(óì¥úÿÿÿÿ
+R
+java:S2696é"6Make the enclosing method "static" or remove this set.(Ô¡ì˜şÿÿÿÿ
+M
+java:S2696ï"6Make the enclosing method "static" or remove this set.(¤¼ñé
+M
+java:S2696ğ"6Make the enclosing method "static" or remove this set.(½óÕ
+M
+java:S2696ñ"6Make the enclosing method "static" or remove this set.(œÊ¬£
+M
+java:S2696ò"6Make the enclosing method "static" or remove this set.(Ã•“¶
+R	java:S125ñ"<This block of commented-out lines of code should be removed.(œÊ¬£
+R
+java:S2696ó"6Make the enclosing method "static" or remove this set.(Ÿƒï¥ıÿÿÿÿ
+R	java:S125ò"<This block of commented-out lines of code should be removed.(Ã•“¶
+R
+java:S2696õ"6Make the enclosing method "static" or remove this set.(ı°¡®ıÿÿÿÿ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(Ÿƒï¥ıÿÿÿÿ
+R
+java:S2696ö"6Make the enclosing method "static" or remove this set.(º‹çûÿÿÿÿ
+R
+java:S2696÷"6Make the enclosing method "static" or remove this set.(óì¥úÿÿÿÿ
+R
+java:S2696ø"6Make the enclosing method "static" or remove this set.(Ô¡ì˜şÿÿÿÿ
+`
+java:S1874†"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾
+5
+java:S2178ˆ"Correct this "&" to "&&".(Ú¥¤õüÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ØˆÕüÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(¾ÆÒ¨üÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(ØˆÕüÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(¾ÆÒ¨üÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(Åèè
+W	java:S125Î"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+M
+java:S2696Ñ"6Make the enclosing method "static" or remove this set.(¯åó·
+M
+java:S2696Ó"6Make the enclosing method "static" or remove this set.(÷•ºî
+M
+java:S2696×"6Make the enclosing method "static" or remove this set.(¤¼ñé
+R
+java:S2696Û"6Make the enclosing method "static" or remove this set.(®µ¥îûÿÿÿÿ
+M
+java:S2696Ş"6Make the enclosing method "static" or remove this set.(£ÀÍŸ
+L
+java:S2696á"6Make the enclosing method "static" or remove this set.( ª˜f
+R
+java:S2696â"6Make the enclosing method "static" or remove this set.(Âò³…ıÿÿÿÿ
+M
+java:S2696ã"6Make the enclosing method "static" or remove this set.(€³èÓ
+R
+java:S2696ä"6Make the enclosing method "static" or remove this set.(òÜÉ´üÿÿÿÿ
+M
+java:S2696å"6Make the enclosing method "static" or remove this set.(À€õˆ
+M
+java:S2696æ"6Make the enclosing method "static" or remove this set.(õ¶¶µ
+O	java:S106ç"9Replace this use of System.out or System.err by a logger.(İ”À
+L
+java:S2696è"6Make the enclosing method "static" or remove this set.(àüªI
+M
+java:S2696é"6Make the enclosing method "static" or remove this set.(‚§Ş¤
+M
+java:S2696ê"6Make the enclosing method "static" or remove this set.(ÀõÜÉ
+M
+java:S2696ë"6Make the enclosing method "static" or remove this set.(õ£©Ç
+W	java:S125í"<This block of commented-out lines of code should be removed.(’é³İûÿÿÿÿ
+M
+java:S2696ô"6Make the enclosing method "static" or remove this set.(¯åó·
+M
+java:S2696ö"6Make the enclosing method "static" or remove this set.(÷•ºî
+L
+java:S2696÷"6Make the enclosing method "static" or remove this set.(€Õ1
+M
+java:S2696û"6Make the enclosing method "static" or remove this set.(¤¼ñé
+M
+java:S2696ü"6Make the enclosing method "static" or remove this set.(Ëã—É
+M
+java:S2696ş"6Make the enclosing method "static" or remove this set.(„èƒ´
+R
+java:S2696ÿ"6Make the enclosing method "static" or remove this set.(ğ¸Àëùÿÿÿÿ
+R
+java:S2696€"6Make the enclosing method "static" or remove this set.(ÑÄšÊşÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(òêÒùÿÿÿÿ
+R
+java:S2696„"6Make the enclosing method "static" or remove this set.(òÜÉ´üÿÿÿÿ
+M
+java:S2696…"6Make the enclosing method "static" or remove this set.(ªÓ§Æ
+R
+java:S2696†"6Make the enclosing method "static" or remove this set.(Ñ¡ü¸ÿÿÿÿÿ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(æàÚ°ÿÿÿÿÿ
+U
+java:S1874">Remove this use of "startActivityForResult"; it is deprecated.(Ÿ“Ò
+M
+java:S1854“"7Remove this useless assignment to local variable "str".(ØŒ‚O
+>
+java:S1481“"(Remove this unused "str" local variable.(ØŒ‚O
+R	java:S125”"<This block of commented-out lines of code should be removed.(Ì„
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(Àµ®ãüÿÿÿÿ
+R
+java:S1874Ù"6Remove this use of "ProgressDialog"; it is deprecated.(é™æíúÿÿÿÿ
+N
+java:S1874Ú"2Remove this use of "setMessage"; it is deprecated.(…×“˜üÿÿÿÿ
+P
+java:S4719é"9Replace charset name argument with StandardCharsets.UTF_8(ë›üã
+R
+java:S2696‰"6Make the enclosing method "static" or remove this set.(æûñşıÿÿÿÿ
+M
+java:S2696Š"6Make the enclosing method "static" or remove this set.(Ø°±Î
+K
+java:S1144Ù"4Remove this unused private "callAEPS1SDKApp" method.(ùßèü
+e
+java:S1192I"JDefine a constant instead of duplicating this literal "Snehasony" 3 times.(İÒ§úÿÿÿÿ
+
+java:S1192•"cDefine a constant instead of duplicating this literal "com.pax.pax_sdk_app.DriverActivity" 3 times.(„ã™ºüÿÿÿÿ
+K
+java:S1066¹"/Merge this if statement with the enclosing one.(¾†Šêûÿÿÿÿ
+Q
+java:S1141œ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141è"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ˆÙ
+f	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÍa
+D
+java:S1604"(Make this anonymous inner class a lambda(ÁÚ†íüÿÿÿÿ
+D
+java:S1604¦"(Make this anonymous inner class a lambda(îè‰ãıÿÿÿÿ
+D
+java:S1604¯"(Make this anonymous inner class a lambda(…¾çèùÿÿÿÿ
+D
+java:S1604¹"(Make this anonymous inner class a lambda(“‰ôûÿÿÿÿ
+?
+java:S1604Ù"(Make this anonymous inner class a lambda(øÛ¬
+D
+java:S1604å"(Make this anonymous inner class a lambda(ÎÀÑşÿÿÿÿ
+?
+java:S1604„"(Make this anonymous inner class a lambda(ê´Á¢
+?
+java:S1604‘"(Make this anonymous inner class a lambda(·ªÑô
+D
+java:S1604œ"(Make this anonymous inner class a lambda(¹¦‰…úÿÿÿÿ
+?
+java:S1604¤"(Make this anonymous inner class a lambda(À»“û
+D
+java:S1604Ï"(Make this anonymous inner class a lambda(ÅÁîúúÿÿÿÿ
+l
+java:S1104G"QMake token a static final constant or non-public and provide accessors if needed.(óÒüÆøÿÿÿÿ
+p
+java:S1104G"UMake adminName a static final constant or non-public and provide accessors if needed.(óÒüÆøÿÿÿÿ
+F
+java:S1444G"+Make this "public static token" field final(óÒüÆøÿÿÿÿ
+J
+java:S1444G"/Make this "public static adminName" field final(óÒüÆøÿÿÿÿ
+A
+java:S5411Ü"*Use the primitive boolean expression here.(ÖÖºû
+g
+java:S2259¡"DA "NullPointerException" could be thrown; "digest" is nullable here.(·•Õ¨şÿÿÿÿ8ò¤È‚Î/

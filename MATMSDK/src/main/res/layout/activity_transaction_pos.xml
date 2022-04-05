@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+>
+
+    <!--    TRANSACTION SUCCESS-->
+    <LinearLayout
+        android:id="@+id/transaction_success"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/status_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pos_success"/>
+
+        <TextView
+            android:id="@+id/card_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textColor="@color/amount"/>
+
+        <TextView
+            android:id="@+id/balanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/trans_success_txt_green"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:text="N/A"/>
+
+
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textViewTxnPos"
+            android:textSize="14sp"
+            android:layout_margin="2dp"
+            android:padding="5dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/statusDescTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="20sp"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/rref_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textViewTxnPos"
+            android:textAlignment="center"
+            android:padding="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="N/A"/>
+
+        <TextView
+            android:id="@+id/txnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textViewTxnPos"
+            android:padding="@dimen/_4sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:textAlignment="center"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/customer_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textViewTxnPos"
+            android:padding="@dimen/_4sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:textAlignment="center"
+            android:text=""/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/trans_success_view_receipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                app:passwordToggleTint="@color/light_blue"
+                app:passwordToggleEnabled="true"
+                android:background="@drawable/submit_btn"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="16sp"
+                android:drawablePadding="5dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+                android:text="View Receipt"
+                android:textAllCaps="false" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/trans_success_print_receipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/ic_baseline_print_24"
+                android:background="@drawable/print_receipt"
+                android:clickable="true"
+                android:paddingRight="3dp"
+                android:focusable="true"
+                android:drawablePadding="5dp"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp"
+                android:text="Print Receipt"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#1FB7B9"
+            android:text="Finish"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--    TRANSACTION FAILED-->
+
+</LinearLayout>
+
+
+

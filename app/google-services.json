@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "325485709936",
+    "firebase_url": "https://paxsdkapp.firebaseio.com",
+    "project_id": "paxsdkapp",
+    "storage_bucket": "paxsdkapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325485709936:android:2c716f36c402a9185ec2b5",
+        "android_client_info": {
+          "package_name": "com.pax.pax_sdk_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325485709936-h108m43rnkir09os5bqhp6gsilpn1cjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pax.pax_sdk_app",
+            "certificate_hash": "f978d86ac9100d06c6b26f4b12ce8a4b98f09524"
+          }
+        },
+        {
+          "client_id": "325485709936-gjfj1mra3gilsn82qro3vioq3dh1252r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHtg3Q2mhE1SEtErnSm23MhhSWIhWzsA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325485709936-gjfj1mra3gilsn82qro3vioq3dh1252r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

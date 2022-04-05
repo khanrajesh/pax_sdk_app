@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PAX_SDK_APP.iml" filepath="$PROJECT_DIR$/.idea/modules/PAX_SDK_APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MATMSDK/PAX_SDK_APP.MATMSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/MATMSDK/PAX_SDK_APP.MATMSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PAX_SDK_APP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PAX_SDK_APP.app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/backImg"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/card_padding"
+            android:src="@drawable/ic_back"
+            android:layout_centerVertical="true"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank List"
+            android:textSize="@dimen/_16sdp"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/card_padding"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:elevation="2dp"
+            android:background="#fff"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding"
+        android:layout_marginLeft="@dimen/card_padding"
+        android:layout_marginRight="@dimen/card_padding"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bankNameRecyclerView"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/card_padding"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

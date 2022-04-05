@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: E./ISU/Work Build/sdk_isu/sdk_isu/app/lib/simple-xml-2.7.1.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/lib/simple-xml-2.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

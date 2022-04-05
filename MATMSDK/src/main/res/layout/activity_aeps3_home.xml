@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mask="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Aadhaar eBanking"/>
+
+
+
+    <!--android:background="@color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/black"-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cashWithdrawalHeadText"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/card_padding"
+                        android:background="@drawable/shadow_button_layer_list"
+                        android:drawableLeft="@drawable/ic_atm_blue"
+                        android:gravity="center"
+                        android:padding="@dimen/home_padding"
+                        android:text="Aadhaarpay"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/tv_balanceEnquiryHeadText"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/card_padding"
+                        android:background="@drawable/shadow_button_layer_list"
+                        android:drawableLeft="@drawable/ic_draft"
+                        android:elevation="6dp"
+                        android:gravity="center"
+                        android:padding="@dimen/home_padding"
+                        android:text="Request Balance"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:typeface="monospace"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_miniStatementHeadText"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/card_padding"
+                        android:background="@drawable/shadow_button_layer_list"
+                        android:drawableLeft="@drawable/ic_draft"
+                        android:elevation="6dp"
+                        android:gravity="center"
+                        android:padding="@dimen/home_padding"
+                        android:text="Mini Statement"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:typeface="monospace"
+                        android:visibility="gone" />
+                    <TextView
+                        android:id="@+id/tv_aadhaarPayHeadText"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/card_padding"
+                        android:background="@drawable/shadow_button_layer_list"
+                        android:drawableLeft="@drawable/ic_draft"
+                        android:elevation="6dp"
+                        android:gravity="center"
+                        android:padding="@dimen/home_padding"
+                        android:text="AADHAAR-PAY"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:typeface="monospace"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/aadharSelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/headerLayout"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_aadhaar"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="@dimen/_45sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_aadharText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:text="Aadhaar"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_virtualID"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="@dimen/_45sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_virtualidText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:text="Virtual ID"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_aadharNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:digits="0123456789"
+                android:drawableStart="@drawable/ic_fingerprint_blue"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="Aadhaar Number"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="14"
+                android:padding="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/details_text_size"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_aadharVirtualID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aadharSelection"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:backgroundTint="#4CB5AB"
+                android:digits="0123456789"
+                android:drawableLeft="@drawable/ic_fingerprint_blue"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="Aadhar VirtualID"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="19"
+                android:padding="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/details_text_size"
+                android:typeface="monospace"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_mobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aadharNumber"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:backgroundTint="?attr/colorPrimary"
+                android:digits="0123456789"
+                android:drawableLeft="@drawable/ic_phone_blue"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint=" Mobile Number "
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/_15sdp"
+                android:textSize="@dimen/details_text_size"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_bankSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mobileNumber"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_bank"
+                android:drawablePadding="@dimen/_8sdp"
+                android:drawableTint="?attr/colorPrimary"
+                android:editable="false"
+                android:focusable="false"
+                android:hint=" Select Bank"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/_15sdp"
+                android:textSize="@dimen/details_text_size"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_enteredAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bankspinner"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:backgroundTint="?attr/colorPrimary"
+                android:drawableLeft="@drawable/ic_rupee"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint=" Enter Amount"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textSize="@dimen/details_text_size"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_fingerprint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/amountEnter"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:enabled="false"
+                android:src="@drawable/ic_scanner_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_fingerprintStrengthDeposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fingerprint"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="20dp"
+                android:text="Fingerprint Strength"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <com.moos.library.HorizontalProgressView
+                android:id="@+id/depositBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/fingerprintStrengthDeposit"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:visibility="gone"
+                app:corner_radius="18dp"
+                app:isTracked="true"
+                app:progressTextColor="@color/black"
+                app:progressTextVisibility="true"
+                app:trackColor="#f4f4f4"
+                app:track_width="18dp" />
+
+            <TextView
+                android:id="@+id/depositNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/depositBar"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:padding="@dimen/card_padding"
+                android:text="Note : Recommended Fingerprint Strength is 40%"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_Conditions"
+                android:clickable="true"
+                android:textColor="@color/red"
+                android:id="@+id/terms"
+                android:layout_margin="@dimen/_17sdp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:textSize="@dimen/_10sdp"/>
+
+            <Button
+                android:id="@+id/btn_submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/depositNote"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_23sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/button_submit"
+                android:enabled="false"
+                android:stateListAnimator="@null"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:typeface="monospace" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

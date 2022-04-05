@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="row_padding_vertical">10dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="divider_padding">30dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="details_text_size">15sp</dimen>
+    <dimen name="bottom_padding">20dp</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">65dp</dimen>
+    <dimen name="design_bottom_navigation_text_size">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">10sp</dimen>
+    <dimen name="top_padding">6dp</dimen>
+    <dimen name="reports_card_padding">16dp</dimen>
+    <dimen name="report_subtitle_text_size">13sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="splash_logo_width">200dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="img_width_height">250dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">35dp</dimen>
+
+    <!--for spinner. -->
+
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="home_padding">35sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="text_margin_nested">26dp</dimen>
+
+
+
+
+</resources>

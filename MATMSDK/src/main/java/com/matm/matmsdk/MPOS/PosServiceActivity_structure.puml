@@ -1,0 +1,152 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": ""
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false // root node is included
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.matm.matmsdk.MPOS.PosServiceActivity"
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_3344141 { 
+   	label=matm
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_1615788076 { 
+   	label=matmsdk
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   GpsTracker1730880647[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)GpsTracker</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   canGetLocation: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   isGPSEnabled: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   isNetworkEnabled: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   latitude: double [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   location: Location [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   locationManager: LocationManager [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   longitude: double [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   mContext: Context [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ canGetLocation(): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onBind(arg0: Intent): IBinder</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onLocationChanged(location: Location)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onProviderDisabled(provider: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onProviderEnabled(provider: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onStatusChanged(provider: String, status: int, extras: Bundle)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ showSettingsAlert()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ stopUsingGPS()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+PosServiceActivity1378015260[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PosServiceActivity</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   gpsTracker: GpsTracker [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   latLong: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   latitude: Double [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   longitude: Double [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- appInstalledOrNot(uri: String): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getLocation()</TD></TR>
+<TR><TD ALIGN="LEFT" ># onActivityResult(requestCode: int, resultCode: int, data: Intent)</TD></TR>
+<TR><TD ALIGN="LEFT" ># onCreate(savedInstanceState: Bundle)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ redirectToPlayStore()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ showAlert(context: Context)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+PosServiceActivity1378015260 -> GpsTracker1730880647[label="gpsTracker
+[0..1]"];
+    
+}
+@enduml

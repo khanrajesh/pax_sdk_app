@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorTextPrimary">#DF000000</color>
+    <color name="colorTextSecondary">#8A000000</color>
+    <color name="colorTextDisable">#61000000</color>
+    <color name="colorTextDivider">#1F000000</color>
+    <color name="editTextBaseLine">#FFD39009</color>
+
+    <color name="lightDark">#777777</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="greyfinger">#979595</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="yellow">#FFD39009</color>
+    <color name="error">#F62459</color>
+    <color name="secondery">#00a5bf</color>
+    <color name="seconderyDark">#047e91</color>
+
+    <color name="shimmer_background">#dddddd</color>
+    <color name="selected">#008577</color>
+    <color name="unselected">#80ccc9c7</color>
+    <color name="orange">#008577</color>
+    <color name="cardDark">#26292e</color>
+    <color name="cardDarkLight">#3c4045</color>
+    <color name="statusfail">#E64A19</color>
+</resources>

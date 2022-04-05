@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="Gradle: com.moos:Material-ProgressView:1.0.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91461f2c903fd0c23d8b02c64a0f409d/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad4418179c3ea06c6576b0d35a8a3290/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5afb19d13456cff61cc3f3ed6496d9d/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32eed5c4a6352d85962025379c070e3e/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f3c442a9136836ce8006cdd1c81183/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a6021c0c45c6d550e2ad2cdbe163954/jetified-Material-ProgressView-1.0.6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91461f2c903fd0c23d8b02c64a0f409d/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91461f2c903fd0c23d8b02c64a0f409d/jetified-Material-ProgressView-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91461f2c903fd0c23d8b02c64a0f409d/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad4418179c3ea06c6576b0d35a8a3290/jetified-Material-ProgressView-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad4418179c3ea06c6576b0d35a8a3290/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad4418179c3ea06c6576b0d35a8a3290/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5afb19d13456cff61cc3f3ed6496d9d/jetified-Material-ProgressView-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5afb19d13456cff61cc3f3ed6496d9d/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5afb19d13456cff61cc3f3ed6496d9d/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32eed5c4a6352d85962025379c070e3e/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32eed5c4a6352d85962025379c070e3e/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32eed5c4a6352d85962025379c070e3e/jetified-Material-ProgressView-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f3c442a9136836ce8006cdd1c81183/jetified-Material-ProgressView-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f3c442a9136836ce8006cdd1c81183/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07f3c442a9136836ce8006cdd1c81183/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a6021c0c45c6d550e2ad2cdbe163954/jetified-Material-ProgressView-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a6021c0c45c6d550e2ad2cdbe163954/jetified-Material-ProgressView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a6021c0c45c6d550e2ad2cdbe163954/jetified-Material-ProgressView-1.0.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moos/Material-ProgressView/1.0.6/2d6c1f506cf751a84dbef1c94aec75b526fadf60/Material-ProgressView-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moos/Material-ProgressView/1.0.6/31510ee942f2b670584b227145b2c856f001a42a/Material-ProgressView-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

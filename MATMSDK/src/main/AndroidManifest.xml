@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="isumatm.androidsdk.equitas">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <queries>
+        <package android:name="com.mantra.rdservice" />
+        <package android:name="com.scl.rdservicecom.mantra.rdservice" />
+        <package android:name="com.precision.pb510.rdservice" />
+        <package android:name="com.acpl.registersdk" />
+        <package android:name="com.evolute.rdservice" />
+        <package android:name="com.nextbiometrics.onetouchrdservice" />
+        <package android:name="com.matm.matmservice_1" />
+        <package android:name="com.linkmatm.service" />
+        <package android:name="com.matm.matmservice" />
+    </queries>
+
+    <application
+        android:name="com.matm.matmsdk.transaction_report.print.GetDalFromNeptuneLiteListener"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="30">
+        <activity
+            android:name="com.matm.matmsdk.MPOS.MorefunServiceActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.unifiedaeps.UnifiedAepsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.unifiedaeps.UnifiedAepsTransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.unifiedaeps.UnifiedAepsMiniStatementActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.DrawPdfAadhaarPayActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.DrawPdfAeps1Activity"
+            android:exported="true" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.aeps3.AEPS3_Transaction_Status_Activity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.aeps3.AEPS3_TransactionReceipt_ministatement" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.aeps3.AEPS3sdkActivity" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.DrawPdfMatm2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.posmorefun.TransactionStatusPOSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.DrawPDFAeps2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.OnboardServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.LocationActivity" /> <!-- <activity android:name="com.matm.matmsdk.Bluetooth.BluetoothConnectorActivity" /> -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity android:name="com.matm.matmsdk.Dashboard.DashBoardActivity" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusNewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.AEPSHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.CoreAEPSHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.matm.matmsdk.DemoActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.AEPS2HomeActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.BioAuthActivity" />
+        <activity android:name="com.matm.matmsdk.aepsmodule.unifiedaeps.UnifiedBioAuthActivity" />
+        <activity android:name="com.matm.matmsdk.MPOS.WiseasyServiceActivity"/>
+        <activity android:name="com.matm.matmsdk.MPOS.NewlandServiceActivity"/>
+        <activity
+            android:name="com.matm.matmsdk.Dashboard.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.Bluetooth.BluetoothActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.ChooseCard.ChooseCardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.Dashboard.FileDownLoadActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.UserProfile.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.matm.matmsdk.transaction_report.TransactionStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.MPOS.PosActivity"
+            android:label="MPOS"
+            android:noHistory="true">
+
+            <!--
+                <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.matm.matmsdk.Error.ErrorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.matm.matmsdk.upitransaction.UPIHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.bankspinner.BankNameListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.Error.Error2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.ministatement.StatementTransactionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.MPOS.PosServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.MPOS.BluetoothServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.MPOS.PaxA910ServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.transactionstatus.TransactionStatusAeps2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.readfile.PreviewPDFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.matm1.MatmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.matm1.Matm1TransactionStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.Error.ErrorMatm1Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.matm.matmsdk.bluetoothprinter.BluetoothDeviceList" />
+        <activity
+            android:name="com.matm.matmsdk.Bluetooth.BluetoothConnectorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.aadharpay.AadharpayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.aepsmodule.aadharpay.AadhaarpayReceiptActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.matm.matmsdk.permission.PermissionsActivity"
+            android:screenOrientation="portrait" />
+
+
+        <!-- Service for Firebase -->
+        <service
+            android:name="com.matm.matmsdk.notification.service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

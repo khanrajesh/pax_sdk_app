@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/bankName"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_bank"
+            android:drawableTint="@color/colorPrimary"
+            android:editable="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:button="@null"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            android:focusable="false"
+            android:hint=" State Bank of India"
+            android:gravity="center|left"
+            android:padding="15dp"
+            android:textSize="@dimen/details_text_size"
+            android:typeface="monospace"
+            android:visibility="visible" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/card_padding"
+        android:background="@color/grey"/>
+</LinearLayout>

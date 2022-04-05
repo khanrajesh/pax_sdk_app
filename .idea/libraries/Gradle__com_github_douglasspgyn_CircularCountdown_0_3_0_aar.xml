@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.douglasspgyn:CircularCountdown:0.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19143c75c91b3d3f6dc164fb82be283/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19143c75c91b3d3f6dc164fb82be283/jetified-CircularCountdown-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b19143c75c91b3d3f6dc164fb82be283/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6636b770f8988924af9cf98f959a57dd/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6636b770f8988924af9cf98f959a57dd/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6636b770f8988924af9cf98f959a57dd/jetified-CircularCountdown-0.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cac73b07f3d2e35842fe07b979c5274c/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cac73b07f3d2e35842fe07b979c5274c/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cac73b07f3d2e35842fe07b979c5274c/jetified-CircularCountdown-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0afe9509f9dccad9e3fe585b95a5ae74/jetified-CircularCountdown-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0afe9509f9dccad9e3fe585b95a5ae74/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0afe9509f9dccad9e3fe585b95a5ae74/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c9f26f02fe503b1ce38a17a54ca20d1/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c9f26f02fe503b1ce38a17a54ca20d1/jetified-CircularCountdown-0.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c9f26f02fe503b1ce38a17a54ca20d1/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d47bb2be9ff632707521b41a1cd1656/jetified-CircularCountdown-0.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d47bb2be9ff632707521b41a1cd1656/jetified-CircularCountdown-0.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d47bb2be9ff632707521b41a1cd1656/jetified-CircularCountdown-0.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

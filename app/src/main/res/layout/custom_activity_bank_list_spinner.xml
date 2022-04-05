@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Select Bank"
+        app:titleTextColor="@color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#26292e"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/card_padding"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank name"
+                android:paddingLeft="4dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:backgroundTint="#f56f2c"
+                android:iconifiedByDefault="false"
+                android:textColor="@color/white"
+                android:queryHint="Search"
+                android:clickable="true"
+                android:inputType="text"
+                android:digits="qwertyuiopasdfghjklzxcvbnm"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbarLayout"
+            android:layout_marginLeft="@dimen/card_padding"
+            android:layout_marginRight="@dimen/card_padding"
+            android:padding="@dimen/card_padding">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/bankNameShimmerLayoout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/card_padding"
+                app:shimmer_duration="1000"
+                app:shimmer_intensity="0.3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+                    <include layout="@layout/shimmer_bank_row" />
+
+
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bankNameRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/card_padding"
+                android:scrollbars="vertical" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

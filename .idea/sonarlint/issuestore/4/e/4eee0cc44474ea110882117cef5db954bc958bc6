@@ -1,0 +1,197 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÜºÑŸüÿÿÿÿ
+{
+java:S3008!"`Rename this field "NOTIFICATION_RECEIVED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•‰ùıÿÿÿÿ
+o
+java:S3008="TRename this field "USER_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿†µ¿ÿÿÿÿÿ
+n
+java:S3008>"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—”Øúşÿÿÿÿ
+p
+java:S3008?"URename this field "ADMIN_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ™ÇÙıÿÿÿÿ
+o
+java:S3008A"YRename this field "USER_SHOP_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ò
+t
+java:S3008B"YRename this field "USER_MOBILE_NO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‚ÂÛûÿÿÿÿ
+y
+java:S3008D"cRename this field "USER_VERIFICATION_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¶Ï¡
+u
+java:S3008F"ZRename this field "VERIFIED_USERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( •Ê”üÿÿÿÿ
+s
+java:S3008G"]Rename this field "VERIFIED_USERPHONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×å‡
+r
+java:S3008H"]Rename this field "VERIFIED_USER_MPIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëœ»
+r
+java:S3008I"\Rename this field "VERIFIED_USER_PWD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÖöÛ
+t
+java:S3008J"^Rename this field "VERIFIED_USER_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¿ş¤
+y
+java:S3008K"^Rename this field "VERIFIED_USER_VIDEO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÓíÉùÿÿÿÿ
+w
+java:S3008L"\Rename this field "VERIFIED_USER_LOC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øé³Ôÿÿÿÿÿ
+x
+java:S3008M"]Rename this field "VERIFIED_USER_LACT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×®š‡üÿÿÿÿ
+x
+java:S3008N"]Rename this field "VERIFIED_USER_LONG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜»ıôüÿÿÿÿ
+
+java:S3008P"fRename this field "USER_WALLET_2_ACTIVE_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¡¸ÿÿÿÿÿ
+
+java:S3008Q"fRename this field "USER_WALLET_3_ACTIVE_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¬şûÿÿÿÿ
+o
+java:S3008T"TRename this field "SHOP_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¢Ïºüÿÿÿÿ
+p
+java:S3008U"URename this field "BRAND_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÔ´üÿÿÿÿ
+q
+java:S3008V"VRename this field "AADHAR_CARD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Î­»ùÿÿÿÿ
+o
+java:S3008W"TRename this field "BANK_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•œ¥ûÿÿÿÿ
+w
+java:S3008Y"\Rename this field "THE_FIREBASE_DATA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È³† şÿÿÿÿ
+
+java:S3008b"dRename this field "FETCH_TRANSACTION_DETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¡¤¢üÿÿÿÿ
+n
+java:S3008c"YRename this field "URL_AADHAARPAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‰‹
+x
+java:S3008d"]Rename this field "URL_CASHWITHDRAWAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞøÎºûÿÿÿÿ
+w
+java:S3008e"\Rename this field "URL_MINISTATEMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½îÀ‰ùÿÿÿÿ
+w
+java:S3008f"\Rename this field "URL_BALANCENQUIRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à›ğüÿÿÿÿ
+r
+java:S3008i"WRename this field "STAGGING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Éö½øÿÿÿÿ
+i
+java:S3008l"SRename this field "LIVE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ É‘
+U
+java:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(—ı°
+Q	java:S1257"<This block of commented-out lines of code should be removed.(ÑÏ
+V	java:S125_"<This block of commented-out lines of code should be removed.(ı¸ˆáıÿÿÿÿ
+V	java:S125a"<This block of commented-out lines of code should be removed.(ÃŒçÜùÿÿÿÿ
+Q	java:S125j"<This block of commented-out lines of code should be removed.(‰Â„¿
+|
+java:S1104!"aMake NOTIFICATION_RECEIVED a static final constant or non-public and provide accessors if needed.(•‰ùıÿÿÿÿ
+p
+java:S1104="UMake USER_NAME a static final constant or non-public and provide accessors if needed.(¿†µ¿ÿÿÿÿÿ
+o
+java:S1104>"TMake USERNAME a static final constant or non-public and provide accessors if needed.(—”Øúşÿÿÿÿ
+q
+java:S1104?"VMake ADMIN_NAME a static final constant or non-public and provide accessors if needed.(ñ™ÇÙıÿÿÿÿ
+p
+java:S1104A"ZMake USER_SHOP_NAME a static final constant or non-public and provide accessors if needed.(²Ò
+u
+java:S1104B"ZMake USER_MOBILE_NO a static final constant or non-public and provide accessors if needed.(´‚ÂÛûÿÿÿÿ
+z
+java:S1104D"dMake USER_VERIFICATION_STATUS a static final constant or non-public and provide accessors if needed.(Œ¶Ï¡
+v
+java:S1104F"[Make VERIFIED_USERID a static final constant or non-public and provide accessors if needed.( •Ê”üÿÿÿÿ
+t
+java:S1104G"^Make VERIFIED_USERPHONE a static final constant or non-public and provide accessors if needed.(×å‡
+s
+java:S1104H"^Make VERIFIED_USER_MPIN a static final constant or non-public and provide accessors if needed.(Ëœ»
+s
+java:S1104I"]Make VERIFIED_USER_PWD a static final constant or non-public and provide accessors if needed.(÷ÖöÛ
+u
+java:S1104J"_Make VERIFIED_USER_EMAIL a static final constant or non-public and provide accessors if needed.(è¿ş¤
+z
+java:S1104K"_Make VERIFIED_USER_VIDEO a static final constant or non-public and provide accessors if needed.(µÓíÉùÿÿÿÿ
+x
+java:S1104L"]Make VERIFIED_USER_LOC a static final constant or non-public and provide accessors if needed.(øé³Ôÿÿÿÿÿ
+y
+java:S1104M"^Make VERIFIED_USER_LACT a static final constant or non-public and provide accessors if needed.(×®š‡üÿÿÿÿ
+y
+java:S1104N"^Make VERIFIED_USER_LONG a static final constant or non-public and provide accessors if needed.(˜»ıôüÿÿÿÿ
+‚
+java:S1104P"gMake USER_WALLET_2_ACTIVE_STATUS a static final constant or non-public and provide accessors if needed.(Æ¡¸ÿÿÿÿÿ
+‚
+java:S1104Q"gMake USER_WALLET_3_ACTIVE_STATUS a static final constant or non-public and provide accessors if needed.(•¬şûÿÿÿÿ
+v
+java:S1104S"[Make bluetoothDevice a static final constant or non-public and provide accessors if needed.(¦Ÿ¤‰şÿÿÿÿ
+p
+java:S1104T"UMake SHOP_NAME a static final constant or non-public and provide accessors if needed.(ß¢Ïºüÿÿÿÿ
+q
+java:S1104U"VMake BRAND_NAME a static final constant or non-public and provide accessors if needed.(ÏÔ´üÿÿÿÿ
+r
+java:S1104V"WMake AADHAR_CARD a static final constant or non-public and provide accessors if needed.(¯Î­»ùÿÿÿÿ
+p
+java:S1104W"UMake BANK_NAME a static final constant or non-public and provide accessors if needed.(•œ¥ûÿÿÿÿ
+x
+java:S1104Y"]Make THE_FIREBASE_DATA a static final constant or non-public and provide accessors if needed.(È³† şÿÿÿÿ
+€
+java:S1104b"eMake FETCH_TRANSACTION_DETAILS a static final constant or non-public and provide accessors if needed.(ò¡¤¢üÿÿÿÿ
+o
+java:S1104c"ZMake URL_AADHAARPAY a static final constant or non-public and provide accessors if needed.(Ø‰‹
+y
+java:S1104d"^Make URL_CASHWITHDRAWAL a static final constant or non-public and provide accessors if needed.(ĞøÎºûÿÿÿÿ
+x
+java:S1104e"]Make URL_MINISTATEMENT a static final constant or non-public and provide accessors if needed.(½îÀ‰ùÿÿÿÿ
+x
+java:S1104f"]Make URL_BALANCENQUIRY a static final constant or non-public and provide accessors if needed.(à›ğüÿÿÿÿ
+s
+java:S1104i"XMake STAGGING_URL a static final constant or non-public and provide accessors if needed.(¨Éö½øÿÿÿÿ
+j
+java:S1104l"TMake LIVE_URL a static final constant or non-public and provide accessors if needed.(¹ É‘
+
+java:S1104m"dMake isDataLoadedForAadharPay a static final constant or non-public and provide accessors if needed.(‹Ç–ºúÿÿÿÿ
+V
+java:S1444!";Make this "public static NOTIFICATION_RECEIVED" field final(•‰ùıÿÿÿÿ
+J
+java:S1444="/Make this "public static USER_NAME" field final(¿†µ¿ÿÿÿÿÿ
+I
+java:S1444>".Make this "public static USERNAME" field final(—”Øúşÿÿÿÿ
+K
+java:S1444?"0Make this "public static ADMIN_NAME" field final(ñ™ÇÙıÿÿÿÿ
+J
+java:S1444A"4Make this "public static USER_SHOP_NAME" field final(²Ò
+O
+java:S1444B"4Make this "public static USER_MOBILE_NO" field final(´‚ÂÛûÿÿÿÿ
+T
+java:S1444D">Make this "public static USER_VERIFICATION_STATUS" field final(Œ¶Ï¡
+P
+java:S1444F"5Make this "public static VERIFIED_USERID" field final( •Ê”üÿÿÿÿ
+N
+java:S1444G"8Make this "public static VERIFIED_USERPHONE" field final(×å‡
+M
+java:S1444H"8Make this "public static VERIFIED_USER_MPIN" field final(Ëœ»
+M
+java:S1444I"7Make this "public static VERIFIED_USER_PWD" field final(÷ÖöÛ
+O
+java:S1444J"9Make this "public static VERIFIED_USER_EMAIL" field final(è¿ş¤
+T
+java:S1444K"9Make this "public static VERIFIED_USER_VIDEO" field final(µÓíÉùÿÿÿÿ
+R
+java:S1444L"7Make this "public static VERIFIED_USER_LOC" field final(øé³Ôÿÿÿÿÿ
+S
+java:S1444M"8Make this "public static VERIFIED_USER_LACT" field final(×®š‡üÿÿÿÿ
+S
+java:S1444N"8Make this "public static VERIFIED_USER_LONG" field final(˜»ıôüÿÿÿÿ
+\
+java:S1444P"AMake this "public static USER_WALLET_2_ACTIVE_STATUS" field final(Æ¡¸ÿÿÿÿÿ
+\
+java:S1444Q"AMake this "public static USER_WALLET_3_ACTIVE_STATUS" field final(•¬şûÿÿÿÿ
+P
+java:S1444S"5Make this "public static bluetoothDevice" field final(¦Ÿ¤‰şÿÿÿÿ
+J
+java:S1444T"/Make this "public static SHOP_NAME" field final(ß¢Ïºüÿÿÿÿ
+K
+java:S1444U"0Make this "public static BRAND_NAME" field final(ÏÔ´üÿÿÿÿ
+L
+java:S1444V"1Make this "public static AADHAR_CARD" field final(¯Î­»ùÿÿÿÿ
+J
+java:S1444W"/Make this "public static BANK_NAME" field final(•œ¥ûÿÿÿÿ
+R
+java:S1444Y"7Make this "public static THE_FIREBASE_DATA" field final(È³† şÿÿÿÿ
+Z
+java:S1444b"?Make this "public static FETCH_TRANSACTION_DETAILS" field final(ò¡¤¢üÿÿÿÿ
+I
+java:S1444c"4Make this "public static URL_AADHAARPAY" field final(Ø‰‹
+S
+java:S1444d"8Make this "public static URL_CASHWITHDRAWAL" field final(ĞøÎºûÿÿÿÿ
+R
+java:S1444e"7Make this "public static URL_MINISTATEMENT" field final(½îÀ‰ùÿÿÿÿ
+R
+java:S1444f"7Make this "public static URL_BALANCENQUIRY" field final(à›ğüÿÿÿÿ
+M
+java:S1444i"2Make this "public static STAGGING_URL" field final(¨Éö½øÿÿÿÿ
+D
+java:S1444l".Make this "public static LIVE_URL" field final(¹ É‘
+Y
+java:S1444m">Make this "public static isDataLoadedForAadharPay" field final(‹Ç–ºúÿÿÿÿ

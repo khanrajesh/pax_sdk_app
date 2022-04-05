@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <item android:id="@+id/set_mpin"
+        android:title="Set MPIN" />
+    <item android:id="@+id/profile"
+        android:title="Profile" />
+    <item android:id="@+id/change_password"
+        android:title="Change Password" />
+    <item android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

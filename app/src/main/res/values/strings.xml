@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">PAX_SDK_APP</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Resources -->
+    <string name="image_desc">Icon Image</string>
+    <string name="login_heading">Log In</string>
+    <string name="login_subheading">Welcome, we are happy that you are back.</string>
+    <string name="login_username_placeholder">Username</string>
+    <string name="login_password_placeholder">Password</string>
+
+    <!-- Prompt Resources -->
+
+    <string name="prompt_title">Prompt</string>
+    <string name="prompt_exit_title">Exit</string>
+    <string name="prompt_trans_success">Transaction Success!</string>
+    <string name="prompt_exit">Are you sure to exit?</string>
+    <string name="prompt_use_card">Swipe/Insert/Tap card...</string>
+    <string name="prompt_select_goods">Please select goods first!</string>
+    <string name="prompt_connect_device">Please connect a bluetooth device first!</string>
+    <string name="prompt_get_pin">Get pin block failed!</string>
+    <string name="prompt_cash">Are you sure to settle by cash?</string>
+    <string name="prompt_downloading">Downloading</string>
+    <string name="prompt_connecting">Connecting</string>
+    <string name="prompt_wait">Please Wait&#8230;</string>
+    <string name="prompt_file_download_success">File download successful!</string>
+    <string name="prompt_file_download_failed">File download failed!</string>
+    <string name="prompt_select_files">Please select files first!</string>
+    <string name="prompt_set_param">Please set Param</string>
+    <string name="prompt_save_success">Save success!</string>
+    <string name="prompt_reload_success">Reload success!</string>
+
+    <string name="dialog_sure">Sure</string>
+    <string name="dialog_cancel">Cancel</string>
+
+
+    <string name="trans_time">Trans Time:</string>
+    <string name="choosecard">Insert/Swipe/Tap card</string>
+    <string name="complete">Payment successful</string>
+    <string name="check_box">whole</string>
+
+    <string name="scan">Scan</string>
+    <string name="stop_scan">stop searching</string>
+
+    <!-- bt -->
+    <string name="paired_device">Paired device</string>
+    <string name="available_devices">Available devices</string>
+    <string name="search">Search Devices</string>
+    <string name="stop_searching">Stop Searching</string>
+
+    <!-- usb -->
+    <string name="usb">USB</string>
+    <string name="usb_connect">Usb Connect</string>
+    <string name="connected_device">Connected device</string>
+    <string name="no_available_device">No Available USB Device</string>
+
+</resources>

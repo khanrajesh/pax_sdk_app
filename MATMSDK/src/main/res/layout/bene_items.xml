@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="BENE Name"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="@color/textColorDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ben_name"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/textColor"
+            android:text="bank name"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ben_account"/>
+        <TextView
+            android:textSize="14sp"
+            android:text="acc no"
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ben_bank_name"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ben_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_delete"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
